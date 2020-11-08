@@ -2,9 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"trim_cterm": "00_readproc.ipynb"}
 
-modules = []
+modules = ["readproc.py"]
 
 doc_url = "https://fastai.github.io/indel_analysis/"
 
