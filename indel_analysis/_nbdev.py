@@ -2,7 +2,10 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"trim_cterm": "00_readproc.ipynb"}
+index = {"trim_cterm": "00_readproc.ipynb",
+         "fasta_to_counts": "00_readproc.ipynb",
+         "increment_seq_counts": "00_readproc.ipynb",
+         "dict_to_df": "00_readproc.ipynb"}
 
 modules = ["readproc.py"]
 
