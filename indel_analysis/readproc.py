@@ -63,7 +63,7 @@ def increment_seq_counts(seq_dict, cur_seq_name, cur_seq):
     return seq_dict
 
 
-def dict_to_df(seq_dict):
+def dict_to_df(seq_dict) -> pd.core.frame.DataFrame:
     dict_for_df={}
     for i, cur_name in enumerate(seq_dict):
         cur_count = seq_dict[cur_name][0]
@@ -74,7 +74,8 @@ def dict_to_df(seq_dict):
     return df_seqs
 
 
-#def df_to_csv:
+
+
 
 
     #make a second dic with the final counts and also the sequences with terminal Zs, to build the DF
