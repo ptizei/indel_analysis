@@ -142,3 +142,4 @@ checklink/cookies.txt
 tests/2g_sel-Input.csv
 tests/2g_sel-Output.csv
 tests/2g_post_PoissonZscore.csv
+tests/2g_librarySizes.csv
